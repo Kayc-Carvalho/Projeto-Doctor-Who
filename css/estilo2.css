@@ -1,0 +1,430 @@
+/*	Alteração na DIV border-top-color: */
+body{
+	background-image: url(https://img.freepik.com/fotos-gratis/fundo-escuro-da-galaxia_53876-98573.jpg?size=626&ext=jpg);
+	font-family: arial;
+}
+#inicio{
+	background-color: #003657;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	border: 1px solid black;
+	border-radius: 10px; 
+}
+.indice1{
+	float: left; 
+	width: 100%;
+	background-color: #00aaf0;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 4px; 
+	margin-bottom: 10px;
+	font-size: 2em;
+}
+#ind{float: center; 
+	width: 100%; 	
+	/*width: 82px;*/  	
+	background: #00aaf0;
+	text-align: center;
+	/*border: 1px solid black;*/
+	border-radius: 4px; 
+}
+.indice{
+	float: right; 
+	width: 6.1%; 	
+	/*width: 82px;*/  	
+	background: #00aaf0;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 4px; 
+	margin-bottom: 10px;
+}
+#menu{
+	float: right; 
+	width: 6.1%; 	 	
+	background: #00aaf0;
+	margin-top: ;
+	margin-left: 5px;
+	border: 1px solid black;
+	text-align: center;
+	border-radius: 4px; 
+}
+#corpo{
+	float: left; 
+	width: 92.8%; 	
+	/*width: 1240px;*/  	
+	background: #006a9e;  	
+	margin: 0 0 0 1px;
+	border: 1px solid black;
+	border-radius: 10px; 
+}
+.corpo{
+	float: left;  	
+	width: 92.8%;
+	/*width: 1240px;*/  	
+	background: #006a9e;  	
+	margin: 0 0 0 1px;
+	border: 1px solid black;
+	border-radius: 10px; 
+}
+#rodape{
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: #003657;
+	width: 100%;
+	border: 1px solid black;
+	text-align: right;
+	border-radius: 5px; 
+	overflow: all;
+}
+table{
+	width: 100%;
+}
+p{
+	font-size: 100%;
+	margin-left: 1%;
+}
+#titulo{
+	font-size: 4em;
+}
+img{
+	width: 55%;
+}
+#a{
+	float: right; 
+	width: 24.3%; 	
+	/*width: 82px;*/  	
+	background: #00aaf0;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 4px; 
+	margin-left: 0.7%;
+	font-size: 1em;
+}
+#b{
+	float: right; 
+	width: 24.3%; 	
+	/*width: 82px;*/  	
+	background: #00aaf0;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 4px; 
+	margin-left: 0.7%;
+	font-size: 1em;
+}
+#c{
+	float: right; 
+	width: 24.3%; 	
+	/*width: 82px;*/  	
+	background: #00aaf0;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 4px; 
+	margin-left: 0.7%;
+	font-size: 1em;
+}
+#d{
+	float: right; 
+	width: 24.3%; 		
+	background: #00aaf0;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 4px; 
+	margin-bottom: 10px;
+	margin-left: ;
+	font-size: 1em;
+}
+#a2{
+	float: right; 
+	width: 98%; 	
+	/*width: 82px;*/  	
+	background: #00aaf0;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 4px; 
+	margin-bottom: 5%;
+	font-size: 1em;
+}
+#b2{
+	float: right; 
+	width: 98%; 	
+	/*width: 82px;*/  	
+	background: #00aaf0;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 4px; 
+	margin-bottom: 5%;
+	font-size: 1em;
+}
+#c2{
+	float: right; 
+	width: 98%; 	
+	/*width: 82px;*/  	
+	background: #00aaf0;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 4px; 
+	margin-bottom: 5%;
+	font-size: 1em;
+}
+#d2{
+	float: right; 
+	width: 98%; 	
+	/*width: 82px;*/  	
+	background: #00aaf0;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 4px; 
+	margin-bottom: 5%;
+	font-size: 1em;
+}
+#e2{
+	float: right; 
+	width: 98%; 	
+	/*width: 82px;*/  	
+	background: #00aaf0;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 4px; 
+	margin-bottom: 5%;
+	font-size: 1em;
+}
+#outros{
+	float: center; 
+	width: 100%; 	
+	/*width: 82px;*/  	
+	background: #00aaf0;
+	text-align: center;
+	/*border: 1px solid black;*/
+	border-radius: 4px; 
+}
+h1{
+	font-size: 4em;
+	text-align: center;
+}
+h2{
+	font-size: 3em;
+}
+
+@media (min-width: 768px) and (max-width: 1200px){
+	#menu{
+			width: 100%;
+			background-color: #00aaf0;
+			}
+img{
+	width: 100%;
+	height: 70%;
+	object-fit: cover;
+  object-position: bottom;
+	}
+		.indice{
+			width: 100%;
+			border-radius: 0px;
+			}
+		.corpo{
+			width: 100%;
+			table-layout: 10%;
+			margin-bottom: 1%
+			}
+table{
+	font-size: 1em;
+}
+h1{
+	font-size: 4em;
+}
+#inicio{
+	text-align: center;
+}
+			#a{
+			width: 48.7%;
+			border-radius: 4px;
+			margin-bottom: 0.8%;
+			margin-right: %;
+			float: left; 
+			}
+			#b{
+			width: 48.7%;
+			border-radius: 4px;
+			margin-bottom: 0.8%;
+			margin-right: 0.8%;
+			margin-left: 0%;
+			}
+			#c{
+			width: 48.7%;
+			border-radius: 4px;
+			margin-bottom: 0.8%;
+			margin-right: %;
+			float: left;
+			}
+			#d{
+			width: 48.7%;
+			border-radius: 4px;
+			margin-right: 0.8%;
+			}
+			#a2{
+			width: 48.7%;
+			border-radius: 4px;
+			margin-right: 0.6%;
+			margin-bottom: 0.8%;
+			margin-top: 0.8%
+			}
+			#b2{
+			width: 48.7%;
+			border-radius: 4px;
+			margin-right: 0.8%;
+			margin-bottom: 0.8%;
+			margin-top: 0.8%
+			}
+			#c2{
+			width: 48.7%;
+			border-radius: 4px;
+			margin-right: 0.6%;
+			margin-bottom: 0.8%;
+			
+			}
+			#d2{
+			width: 48.7%;
+			border-radius: 4px;
+			margin-bottom: 0.8%;
+			margin-right: 0.8%;
+
+			}
+			#e2{
+			width: 98.6%;
+			border-radius: 4px;
+			margin-bottom: 0.8%;
+			margin-right: 0.6%;
+			}
+			#corpo{
+				margin-bottom: 1%;
+			}
+			body{
+				/*background-image: url(https://1.bp.blogspot.com/-tFJV8LARkZY/X9WviDl9QVI/AAAAAAAA584/CnNUKQidoa0rFLHuruednkukL_UqoR8AwCLcBGAsYHQ/s1920/galaxy_nebula_stars_194459_1080x1920.jpg);*/
+			background-image: url(https://img.freepik.com/fotos-gratis/fundo-escuro-da-galaxia_53876-98573.jpg?size=626&ext=jpg);
+			}
+
+}
+@media (max-width: 768px){
+		#menu{
+			width: 100%;
+			background-color: #00aaf0;
+			}
+img{
+	width: 100%;
+	height: 70%;
+	object-fit: cover;
+  object-position: bottom;
+	}
+		.indice{
+			width: 100%;
+			border-radius: 0px;
+			}
+		.corpo{
+			width: 100%;
+			table-layout: 10%;
+			margin-bottom: 1%
+			}
+table{
+	font-size: 1em;
+}
+h1{
+	font-size: 4em;
+}
+#inicio{
+	text-align: center;
+}
+			#a{
+			width: 98%;
+			border-radius: 4px;
+			margin-bottom: 0.8%;
+			margin-right: 0.8%;
+			}
+			#b{
+			width: 98%;
+			border-radius: 4px;
+			margin-bottom: 0.8%;
+			margin-right: 0.8%;
+			}
+			#c{
+			width: 98%;
+			border-radius: 4px;
+			margin-bottom: 0.8%;
+			margin-right: 0.8%;
+			}
+			#d{
+			width: 98%;
+			border-radius: 4px;
+			margin-right: 0.8%;
+			}
+			#a2{
+			width: 48.7%;
+			border-radius: 4px;
+			margin-right: 0.6%;
+			margin-bottom: 0.8%;
+			margin-top: 0.8%
+			}
+			#b2{
+			width: 48.7%;
+			border-radius: 4px;
+			margin-right: 0.8%;
+			margin-bottom: 0.8%;
+			margin-top: 0.8%
+			}
+			#c2{
+			width: 48.7%;
+			border-radius: 4px;
+			margin-right: 0.6%;
+			margin-bottom: 0.8%;
+			
+			}
+			#d2{
+			width: 48.7%;
+			border-radius: 4px;
+			margin-bottom: 0.8%;
+			margin-right: 0.8%;
+
+			}
+			#e2{
+			width: 98.6%;
+			border-radius: 4px;
+			margin-bottom: 0.8%;
+			margin-right: 0.6%;
+			}
+			#corpo{
+				margin-bottom: 1%;
+			}
+			body{
+				/*background-image: url(https://1.bp.blogspot.com/-tFJV8LARkZY/X9WviDl9QVI/AAAAAAAA584/CnNUKQidoa0rFLHuruednkukL_UqoR8AwCLcBGAsYHQ/s1920/galaxy_nebula_stars_194459_1080x1920.jpg);*/
+			background-image: url(https://img.freepik.com/fotos-gratis/fundo-escuro-da-galaxia_53876-98573.jpg?size=626&ext=jpg);
+			}
+
+
+}
+@media (max-width: 480px){
+			#a2{
+			width: 98%;
+			border-radius: 4px;
+			margin-bottom: 0.8%;
+			}
+			#b2{
+			width: 98%;
+			border-radius: 4px;
+			margin-bottom: 0.8%;
+			}
+			#c2{
+			width: 98%;
+			border-radius: 4px;
+			margin-bottom: 0.8%;
+			}
+			#d2{
+			width: 98%;
+			border-radius: 4px;
+
+			}
+			#e2{
+			width: 98%;
+			border-radius: 4px;
+			}
+}
